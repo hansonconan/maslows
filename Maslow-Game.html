@@ -193,44 +193,44 @@
 
 <script>
   const levels = [
-    {
+  {
       title: "Level 1: Nhu cầu sinh lý",
       instructions: "Thu thập đủ Thức ăn, Nước uống, và Chỗ ngủ trong 5 giây! Chỉ được phép nhấp sai tối đa 2 lần. Tránh vật phẩm giả!",
       neededItems: ["Thức ăn", "Nước uống", "Chỗ ngủ"],
-      fakeItems: ["Rác", "Đồ hỏng", "Vật phẩm giả", "Đồ vỡ", "Mảnh vụn", "Rác thải", "Đồ lỗi", "Mẩu giấy"],
-      timeLimit: 5,
+      fakeItems: ["Rác", "Đồ hỏng", "Vật phẩm giả", "Đồ vỡ", "Mảnh vụn", "Rác thải", "Đồ lỗi", "Mẩu giấy", "Máy bay", "Laptop", "Tủ lạnh", "Bàn ghế"],
+      timeLimit: 10,
       maxWrongClicks: 2,
     },
     {
       title: "Level 2: Nhu cầu an toàn",
-      instructions: "Thu thập đủ Nhà cửa, Thu nhập ổn định, và Bảo hiểm trong 5 giây! Sai tối đa 3 lần.",
+      instructions: "Thu thập đủ Nhà cửa, Thu nhập ổn định, và Bảo hiểm trong 5 giây! Sai tối đa 2 lần.",
       neededItems: ["Nhà cửa", "Thu nhập ổn định", "Bảo hiểm"],
-      fakeItems: ["Thất nghiệp", "Nợ nần", "Nguy hiểm", "Rủi ro", "Bất an", "Rác", "Đồ hỏng"],
-      timeLimit: 5,
-      maxWrongClicks: 3,
+      fakeItems: ["Thất nghiệp", "Nợ nần", "Nguy hiểm", "Rủi ro", "Bất an", "Rác", "Đồ hỏng", "Thức ăn", "Nước uống", "Chỗ ngủ", "Tủ lạnh", "Bàn ghế"],
+      timeLimit: 8,
+      maxWrongClicks: 2,
     },
     {
       title: "Level 3: Nhu cầu xã hội",
-      instructions: "Thu thập đủ Gia đình, Bạn bè, và Tình yêu trong 5 giây! Sai tối đa 3 lần.",
+      instructions: "Thu thập đủ Gia đình, Bạn bè, và Tình yêu trong 5 giây! Sai tối đa 2 lần.",
       neededItems: ["Gia đình", "Bạn bè", "Tình yêu"],
-      fakeItems: ["Cô đơn", "Mâu thuẫn", "Cãi vã", "Ghét bỏ", "Lừa dối", "Rác"],
-      timeLimit: 5,
-      maxWrongClicks: 3,
+      fakeItems: ["Cô đơn", "Mâu thuẫn", "Cãi vã", "Ghét bỏ", "Lừa dối", "Rác", "Nhà cửa", "Thu nhập ổn định", "Bảo hiểm", "Thức ăn", "Nước uống", "Chỗ ngủ"],
+      timeLimit: 6,
+      maxWrongClicks: 2,
     },
     {
       title: "Level 4: Nhu cầu được tôn trọng",
-      instructions: "Thu thập đủ Danh tiếng, Địa vị, và Sự công nhận trong 5 giây! Sai tối đa 4 lần.",
+      instructions: "Thu thập đủ Danh tiếng, Địa vị, và Sự công nhận trong 5 giây! Sai tối đa 3 lần.",
       neededItems: ["Danh tiếng", "Địa vị", "Sự công nhận"],
-      fakeItems: ["Bị coi thường", "Bị chê bai", "Thất bại", "Bị lãng quên", "Rác"],
-      timeLimit: 5,
-      maxWrongClicks: 4,
+      fakeItems: ["Bị coi thường", "Bị chê bai", "Thất bại", "Bị lãng quên", "Gia đình", "Bạn bè", "Bảo hiểm"],
+      timeLimit: 4
+      maxWrongClicks: 3,
     },
     {
       title: "Level 5: Nhu cầu tự thể hiện bản thân",
       instructions: "Thu thập đủ Sáng tạo, Thành tựu, và Tự do trong 5 giây! Sai tối đa 4 lần.",
       neededItems: ["Sáng tạo", "Thành tựu", "Tự do"],
-      fakeItems: ["Sự hạn chế", "Thất bại", "Sự ép buộc", "Rác"],
-      timeLimit: 5,
+      fakeItems: ["Sự hạn chế", "Thất bại", "Sự ép buộc", "Danh tiếng", "Địa vị", "Sự công nhận"],
+      timeLimit: 3,
       maxWrongClicks: 4,
     }
   ];
